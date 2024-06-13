@@ -1,0 +1,8 @@
+.warning-div {
+  border: 1px solid var(--main-color);
+}
+.digit {
+  font-size: 1.5rem !important;
+  background-color: #00b0c9;
+  color: #fff !important;
+}

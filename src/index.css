@@ -1,0 +1,124 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+@import url("https://fonts.googleapis.com/css2?family=Tajawal&display=swap");
+
+:root {
+  --main-color: #001a70;
+  --main-color2: #00b0c9;
+}
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.primary-color {
+  color: #001a70;
+}
+.secondary-color {
+  color: #00b0c9;
+}
+.white-bg {
+  background-color: rgb(254, 251, 251);
+}
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"), url("./fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "PoppinsSemi";
+  src: local("Poppins"), url("./fonts/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: bold;
+}
+/* * {
+  font-family: "Poppins";
+} */
+.App.en {
+  font-family: "Poppins";
+}
+
+/* Arabic font family */
+.App.ar {
+  font-family: "Tajawal";
+}
+.boldFont {
+  font-family: "PoppinsSemi";
+}
+button:disabled {
+  cursor: not-allowed;
+  pointer-events: all !important;
+}
+.form-control:focus {
+  box-shadow: none !important;
+  border-color: #123456 !important;
+}
+
+.issue-page-btns {
+  border: 1px solid #001a70;
+  background-color: #fefbfb;
+  padding: 0.6rem;
+  color: #001a70;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sc-hLQSwg svg {
+  color: #001a70;
+}
+.sc-eTNRI {
+  font-size: 16px;
+}
+
+/*  */
+.awesome-button {
+  position: relative;
+  overflow: hidden;
+  padding: 10px 20px;
+  border: 1px solid #001a70;
+
+  font-size: 16px;
+  color: #001a70;
+  background-color: white;
+
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+.awesome-button:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+.awesome-button:active {
+  background-color: #004080;
+}
+
+.awesome-button .ripple {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.6);
+  transform: scale(0);
+  animation: ripple-animation 0.6s linear;
+}
+
+@keyframes ripple-animation {
+  to {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+
+.analysis-bg {
+  background-color: #cccfe0;
+}
+
+.recharts-text {
+  font-size: 12px;
+  color: #001a70 !important;
+}
+/*  */

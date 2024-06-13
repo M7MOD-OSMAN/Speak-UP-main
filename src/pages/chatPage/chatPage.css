@@ -1,0 +1,21 @@
+.textarea {
+  border-bottom: none !important;
+}
+.submit-btn {
+  width: 120px;
+}
+small {
+  font-size: 12px;
+}
+@media (max-width: 768px) {
+  small {
+    font-size: 8px;
+  }
+  .submit-btn {
+    width: 80px;
+    font-size: 0.1rem;
+  }
+}
+.chat-icon {
+  color: var(--main-color);
+}

@@ -1,0 +1,21 @@
+input {
+  height: 53px;
+}
+.name {
+  background-image: url(./assets/person.png);
+}
+.password {
+  background-image: url(./assets/password.png);
+  background-size: auto;
+}
+.name,
+.password {
+  background-repeat: no-repeat;
+  background-position: 1rem;
+  padding-left: 55px;
+  padding-top: 10px;
+}
+
+.login-btn {
+  background-color: var(--main-color2);
+}
